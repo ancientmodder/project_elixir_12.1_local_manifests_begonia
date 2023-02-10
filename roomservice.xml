@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<!--Remotes-->
+    <remote name="source"           fetch="https://github.com/PixelExperience"/>
+    <remote name="source2"           fetch="https://github.com/PixelExperience-Devices"/>
+    <remote name="source3"           fetch="https://gitlab.pixelexperience.org/android/vendor-blobs"/>
+    
+<!--Devices Trees-->
+    <!--Devices Trees-->
+    <project name="device_xiaomi_begonia"   path="device/xiaomi/begonia"    remote="source2"         revision="twelve-plus" />
+    <project name="kernel_xiaomi_begonia"    path="kernel/xiaomi/begonia"    remote="source"          revision="twelve" />
+    
+    <project name="device_mediatek_common" path="device/mediatek/common"   remote="source"         revision="twelve" />
+    <project name="vendor_xiaomi_begonia"    path="vendor/xiaomi/begonia"     remote="source3"        revision="twelve" />
+    
+    <project name="device_mediatek_sepolicy_vndr"  path="device/mediatek/sepolicy_vndr"  remote="source"   revision="twelve" />
+    
+    <project name="vendor_mediatek-opensource"  path="vendor/mediatek/opensource"    remote="source"    revision="twelve" />
+    <project name="vendor_mediatek_ims"         path="vendor/mediatek/ims"            remote="source"    revision="twelve" />
+    <project name="vendor_mediatek_interfaces"   path="vendor/mediatek/interfaces"		remote="source"		revision="twelve"/>
+    
+</manifest>
